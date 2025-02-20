@@ -17,7 +17,7 @@ body:
     attributes:
       label: Who is this for?
       options:
-        - Application for nyself
+        - Application for myself
         - Nomination for someone else
     validations:
       required: true  
