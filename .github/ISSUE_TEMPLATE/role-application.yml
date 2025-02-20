@@ -1,0 +1,31 @@
+name: Volunteer Role Application
+description: If you're interested in one of the open roles, apply or nominate someone here.
+title: '[Volunteer Application]: <role and name here>'
+body:
+  - type: markdown
+    attributes:
+      value: Thank you for your interest!
+  - type: input
+    id: role
+    attributes:
+      label: Volunteer role
+      description: Which role are you interested in?
+    validations:
+      required: true
+  - type: dropdown
+    id: source
+    attributes:
+      label: Who is this for?
+      options:
+        - Application for nyself
+        - Nomination for someone else
+    validations:
+    required: true  
+  - type: textarea
+    id: about-you
+    attributes:
+      label: About
+      description: Tell us a little about yourself or the person you're nominating and why you want this role.
+      placeholder: 
+    validations:
+      required: true
