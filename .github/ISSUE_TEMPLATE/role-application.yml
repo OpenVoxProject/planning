@@ -20,7 +20,7 @@ body:
         - Application for nyself
         - Nomination for someone else
     validations:
-    required: true  
+      required: true  
   - type: textarea
     id: about-you
     attributes:
